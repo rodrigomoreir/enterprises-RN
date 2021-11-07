@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField matches snapshot 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#696969",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 50,
+          "marginVertical": 10,
+          "paddingHorizontal": 5,
+          "width": 670,
+        },
+        undefined,
+        false,
+        false,
+        ,
+      ]
+    }
+  >
+    <Image
+      style={
+        Array [
+          Object {
+            "marginHorizontal": 5,
+          },
+        ]
+      }
+    />
+    <TextInput
+      allowFontScaling={true}
+      defaultValue=""
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="test"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;

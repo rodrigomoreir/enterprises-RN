@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp Screen matches snapshot 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ],
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "width": 750,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+    style={
+      Array [
+        Object {
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "paddingTop": 80,
+                "width": 700,
+              },
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../src/assets/logo_ioasys.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#696969",
+                "fontSize": 20,
+                "fontStyle": "normal",
+                "fontWeight": "bold",
+                "lineHeight": 26.38,
+              },
+            ]
+          }
+        >
+          Faça seu cadastro
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "paddingVertical": 20,
+              },
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "#696969",
+                    "borderRadius": 10,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "height": 50,
+                    "marginVertical": 10,
+                    "paddingHorizontal": 5,
+                    "width": 670,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  ,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/usuario_20px.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              />
+              <TextInput
+                allowFontScaling={true}
+                defaultValue=""
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                placeholder="Nome"
+                rejectResponderTermination={true}
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                    },
+                  ]
+                }
+                underlineColorAndroid="transparent"
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "#696969",
+                    "borderRadius": 10,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "height": 50,
+                    "marginVertical": 10,
+                    "paddingHorizontal": 5,
+                    "width": 670,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  ,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/usuario_20px.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              />
+              <TextInput
+                allowFontScaling={true}
+                defaultValue=""
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                placeholder="E-mail"
+                rejectResponderTermination={true}
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                    },
+                  ]
+                }
+                underlineColorAndroid="transparent"
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "#696969",
+                    "borderRadius": 10,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "height": 50,
+                    "marginVertical": 10,
+                    "paddingHorizontal": 5,
+                    "width": 670,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  ,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/senha.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              />
+              <TextInput
+                allowFontScaling={true}
+                defaultValue=""
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                placeholder="Senha"
+                rejectResponderTermination={true}
+                secureTextEntry={true}
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                    },
+                  ]
+                }
+                underlineColorAndroid="transparent"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#87cefa",
+              "borderRadius": 30,
+              "height": 60,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 650,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Cadastrar
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "#a9a9a9",
+              "borderTopWidth": 2,
+              "height": 60,
+              "justifyContent": "center",
+              "marginTop": 25,
+              "opacity": 1,
+              "width": 750,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "#696969",
+                  "fontSize": 20,
+                  "fontStyle": "normal",
+                  "fontWeight": "bold",
+                  "lineHeight": 26.38,
+                },
+              ]
+            }
+          >
+            Acessar conta
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

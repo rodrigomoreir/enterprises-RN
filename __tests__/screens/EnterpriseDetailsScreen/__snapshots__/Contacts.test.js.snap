@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "color": "#696969",
+          "fontSize": 18,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "marginTop": 10,
+        },
+      ]
+    }
+  >
+    TEST
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#696969",
+          "fontSize": 15,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "lineHeight": 22,
+        },
+      ]
+    }
+  >
+    test
+  </Text>
+</View>
+`;

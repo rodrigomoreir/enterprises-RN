@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Screen matches snapshot 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 2,
+            "borderColor": "#a9a9a9",
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "space-between",
+            "paddingHorizontal": 10,
+            "width": 750,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "width": 40,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#696969",
+              "fontSize": 20,
+              "fontStyle": "normal",
+              "fontWeight": "bold",
+              "lineHeight": 26.38,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Empresas
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#69696999",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 40,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/profile.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "borderRadius": 20,
+                "maxHeight": 38,
+                "maxWidth": 38,
+                "tintColor": "#87cefaCC",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderColor": "#696969",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 50,
+              "marginVertical": 10,
+              "paddingHorizontal": 5,
+              "width": 670,
+            },
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "borderRadius": 20,
+                "height": 40,
+                "marginBottom": 10,
+                "marginLeft": 15,
+                "width": 720,
+              },
+            ],
+            false,
+            false,
+            ,
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#87cefa99",
+              "borderBottomLeftRadius": 20,
+              "borderTopLeftRadius": 20,
+              "height": 39,
+              "justifyContent": "center",
+              "left": -6,
+              "opacity": 1,
+              "width": 55,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/consultas_24px.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "tintColor": "#696969CC",
+                },
+              ]
+            }
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          defaultValue=""
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Pesquisar"
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 750,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 1084,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontStyle": "italic",
+              },
+            ]
+          }
+        >
+          Não foram encontradas Empresas
+        </Text>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

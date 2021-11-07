@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 2,
+        "borderColor": "#a9a9a9",
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 10,
+        "width": 750,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "width": 40,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#696969",
+          "fontSize": 20,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "lineHeight": 26.38,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    TEST
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "#69696999",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 40,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/profile.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "borderRadius": 20,
+            "maxHeight": 38,
+            "maxWidth": 38,
+            "tintColor": "#87cefaCC",
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;

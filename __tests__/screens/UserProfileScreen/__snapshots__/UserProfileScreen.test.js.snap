@@ -1,0 +1,436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Profile Screen matches snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 2,
+          "borderColor": "#a9a9a9",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 10,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "width": 40,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#87cefaCC",
+            "borderColor": "#69696999",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 40,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/chevronLeft.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 20,
+                "tintColor": "#ecf0f2",
+                "width": 20,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#696969",
+            "fontSize": 20,
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": 26.38,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Usuário
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#69696999",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 40,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/profile.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderRadius": 20,
+              "maxHeight": 38,
+              "maxWidth": 38,
+              "tintColor": "#87cefaCC",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "width": 750,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+    style={
+      Array [
+        Object {
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": 100,
+                "justifyContent": "center",
+                "marginBottom": 30,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/profile.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": "100%",
+                  "tintColor": "#87cefa",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#696969",
+                "fontSize": 20,
+                "fontStyle": "normal",
+                "fontWeight": "bold",
+                "lineHeight": 26.38,
+                "marginVertical": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Minhas Informações
+        </Text>
+        <View
+          accessibilityLabel="Separator"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#69696980",
+                "height": 1,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "width": 700,
+                },
+              ],
+              false,
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#696969",
+                "fontSize": 20,
+                "fontStyle": "normal",
+                "fontWeight": "bold",
+                "lineHeight": 26.38,
+                "marginVertical": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Editar Cadastro
+        </Text>
+        <View
+          accessibilityLabel="Separator"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#69696980",
+                "height": 1,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "width": 700,
+                },
+              ],
+              false,
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#696969",
+                "fontSize": 20,
+                "fontStyle": "normal",
+                "fontWeight": "bold",
+                "lineHeight": 26.38,
+                "marginVertical": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Empresa
+        </Text>
+        <View
+          accessibilityLabel="Separator"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#69696980",
+                "height": 1,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "width": 700,
+                },
+              ],
+              false,
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#696969",
+                "fontSize": 20,
+                "fontStyle": "normal",
+                "fontWeight": "bold",
+                "lineHeight": 26.38,
+                "marginVertical": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Saldo
+        </Text>
+        <View
+          accessibilityLabel="Separator"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#69696980",
+                "height": 1,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "width": 700,
+                },
+              ],
+              false,
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#696969",
+                "fontSize": 20,
+                "fontStyle": "normal",
+                "fontWeight": "bold",
+                "lineHeight": 26.38,
+                "marginVertical": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Valor do Portifolio
+        </Text>
+        <View
+          accessibilityLabel="Separator"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#69696980",
+                "height": 1,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "width": 700,
+                },
+              ],
+              false,
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginBottom": 20,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#87cefa",
+              "borderRadius": 30,
+              "height": 60,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 650,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Sair
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
